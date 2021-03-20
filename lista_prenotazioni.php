@@ -9,7 +9,7 @@ use League\Plates\Engine;
 $templates = new Engine('./view','tpl');
 
 //Query per recuperare tutte le prenotazioni
-$sql = "SELECT * FROM prenotazioni";
+$sql = "SELECT * FROM prenotazione";
 
 //Invio la query al server MySQL
 $stmt = $pdo->query($sql);
